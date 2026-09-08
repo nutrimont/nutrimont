@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roberto Soares Monteiro - Automação Administrativa</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --card: #171a21;
+    --text: #e8eaed;
+    --muted: #9aa0a6;
+    --accent: #25d366;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  header {
+    padding: 64px 24px 32px;
+    text-align: center;
+    border-bottom: 1px solid #262a33;
+  }
+  header h1 {
+    margin: 0 0 8px;
+    font-size: 1.9rem;
+    font-weight: 700;
+  }
+  header p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 1.05rem;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+  section {
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 1.15rem;
+    color: var(--accent);
+    margin-bottom: 12px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid #262a33;
+    border-radius: 12px;
+    padding: 24px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .field span.label {
+    font-size: 0.8rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .field span.value {
+    font-size: 1rem;
+  }
+  ul {
+    padding-left: 20px;
+    margin: 0;
+  }
+  li { margin-bottom: 8px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  footer {
+    text-align: center;
+    padding: 24px;
+    color: var(--muted);
+    font-size: 0.85rem;
+    border-top: 1px solid #262a33;
+  }
+  @media (max-width: 480px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Roberto Soares Monteiro</h1>
+  <p>Automação administrativa para clínicas e consultórios</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>Sobre</h2>
+    <p>
+      Serviço de automação administrativa focado em recuperação de faltas (no-show)
+      para clínicas e consultórios de saúde: lembrete automático por WhatsApp,
+      confirmação de presença, reagendamento e oferta automática da vaga liberada
+      para a lista de espera.
+    </p>
+  </section>
+
+  <section>
+    <h2>Serviços</h2>
+    <div class="card">
+      <ul>
+        <li>Lembrete automático de consulta via WhatsApp</li>
+        <li>Confirmação e reagendamento sem intervenção manual</li>
+        <li>Gestão automática de lista de espera</li>
+        <li>Redução de faltas e melhor ocupação de agenda</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Dados da empresa</h2>
+    <div class="card grid">
+      <div class="field">
+        <span class="label">Nome empresarial</span>
+        <span class="value">Roberto Soares Monteiro</span>
+      </div>
+      <div class="field">
+        <span class="label">CNPJ</span>
+        <span class="value">69.009.938/0001-79</span>
+      </div>
+      <div class="field">
+        <span class="label">Natureza</span>
+        <span class="value">Microempreendedor Individual (MEI)</span>
+      </div>
+      <div class="field">
+        <span class="label">Local</span>
+        <span class="value">Rio de Janeiro, RJ</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contato</h2>
+    <div class="card">
+      <p>WhatsApp / Telefone: <a href="tel:+5521976016134">+55 21 97601-6134</a></p>
+      <p>E-mail: <a href="mailto:robertomontnutri@gmail.com">robertomontnutri@gmail.com</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  Roberto Soares Monteiro — CNPJ 69.009.938/0001-79
+</footer>
+
+</body>
+</html>
